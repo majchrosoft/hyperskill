@@ -107,6 +107,7 @@ def coords_pick(board_arg):
         elif not inp.replace(' ', '').isnumeric():
             print(MSG_YOU_SHOULD_ENTER_NUMBERS)
             continue
+        # php explode
         inp_list = inp.split(' ')
         x = int(inp_list[0])
         y = int(inp_list[1])

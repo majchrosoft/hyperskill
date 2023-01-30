@@ -65,7 +65,7 @@ BANK = 550
 
 
 def ask_question_open(message_arg, cast_to_arg=int):
-    print(message_arg)
+    message_arg and print(message_arg)
     return cast_to_arg(input())
 
 
